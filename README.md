@@ -77,4 +77,4 @@ npm run preview
 
 - I used AI to help find the colors for the tag elements.
 - I initially wrote the entire application myself.
-    - I used ChatGPT to help optimize two specific parts of the project: the card filtering function for keyword highlighting and the tag component. The initial implementation and design decisions were mine, but I used AI to refine the performance and readability of these functions.
+    - I used ChatGPT to help optimize two specific parts of the project: the card filtering function for keyword highlighting and the color styling for the tag component. The initial implementation and design decisions were mine, but I used AI to refine the performance and readability of these functions.
