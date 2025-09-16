@@ -1,0 +1,75 @@
+[
+    {
+        "type": "product",
+        "title": "Osprey Farpoint 40",
+        "summary": "A top-rated item loved by users.",
+        "image": "https://via.placeholder.com/100",
+        "tags": ["travel", "premium", "review"]
+    },
+    {
+        "type": "research",
+        "title": "E-bike Usage in Urban Settings",
+        "source": "Nature Journal",
+        "snippet": "A recent study showing interesting trends and findings.",
+        "tags": ["eco", "budget", "sustainability"]
+    },
+    {
+        "type": "forum",
+        "title": "How to keep drinks cold at festivals?",
+        "source": "Reddit",
+        "username": "u/user8973",
+        "content": "Some useful community insights from experience.",
+        "tags": ["travel", "eco", "mobility"]
+    },
+    {
+        "type": "product",
+        "title": "Hydroflask 32oz",
+        "summary": "A top-rated item loved by users.",
+        "image": "https://via.placeholder.com/100",
+        "tags": ["electric", "eco", "sustainability"]
+    },
+    {
+        "type": "research",
+        "title": "Effectiveness of Reusable Bottles",
+        "source": "Nature Journal",
+        "snippet": "A recent study showing interesting trends and findings.",
+        "tags": ["mobility", "gear", "travel"]
+    },
+    {
+        "type": "product",
+        "title": "VanMoof S5 Electric Bike",
+        "summary": "A top-rated item loved by users.",
+        "image": "https://via.placeholder.com/100",
+        "tags": ["budget", "electric", "eco"]
+    },
+    {
+        "type": "forum",
+        "title": "Worth it to upgrade to S5?",
+        "source": "Reddit",
+        "username": "u/user5668",
+        "content": "Some useful community insights from experience.",
+        "tags": ["gear", "eco", "electric"]
+    },
+    {
+        "type": "forum",
+        "title": "Are solar chargers reliable?",
+        "source": "Reddit",
+        "username": "u/user8461",
+        "content": "Some useful community insights from experience.",
+        "tags": ["mobility", "electric", "budget"]
+    },
+    {
+        "type": "research",
+        "title": "Backpack Travel in Gen Z",
+        "source": "Nature Journal",
+        "snippet": "A recent study showing interesting trends and findings.",
+        "tags": ["budget", "gear", "review"]
+    },
+    {
+        "type": "product",
+        "title": "LARQ Self-Cleaning Bottle",
+        "summary": "A top-rated item loved by users.",
+        "image": "https://via.placeholder.com/100",
+        "tags": ["budget", "review", "mobility"]
+    }
+]

@@ -1,0 +1,75 @@
+[
+    {
+        "type": "forum",
+        "title": "Worth it to upgrade to S5?",
+        "source": "Reddit",
+        "username": "u/user7092",
+        "content": "Some useful community insights from experience.",
+        "tags": ["premium", "budget", "gear"]
+    },
+    {
+        "type": "product",
+        "title": "VanMoof S5 Electric Bike",
+        "summary": "A top-rated item loved by users.",
+        "image": "https://via.placeholder.com/100",
+        "tags": ["mobility", "urban", "travel"]
+    },
+    {
+        "type": "product",
+        "title": "SolarPower Bank Pro",
+        "summary": "A top-rated item loved by users.",
+        "image": "https://via.placeholder.com/100",
+        "tags": ["travel", "urban", "eco"]
+    },
+    {
+        "type": "product",
+        "title": "SolarPower Bank Pro",
+        "summary": "A top-rated item loved by users.",
+        "image": "https://via.placeholder.com/100",
+        "tags": ["gear", "sustainability", "travel"]
+    },
+    {
+        "type": "product",
+        "title": "Nomad Leather AirPods Case",
+        "summary": "A top-rated item loved by users.",
+        "image": "https://via.placeholder.com/100",
+        "tags": ["travel", "sustainability", "urban"]
+    },
+    {
+        "type": "forum",
+        "title": "Minimalist packing advice",
+        "source": "Reddit",
+        "username": "u/user7699",
+        "content": "Some useful community insights from experience.",
+        "tags": ["mobility", "electric", "gear"]
+    },
+    {
+        "type": "research",
+        "title": "Backpack Travel in Gen Z",
+        "source": "Nature Journal",
+        "snippet": "A recent study showing interesting trends and findings.",
+        "tags": ["eco", "gear", "premium"]
+    },
+    {
+        "type": "research",
+        "title": "Trends in One-Bag Travel",
+        "source": "Nature Journal",
+        "snippet": "A recent study showing interesting trends and findings.",
+        "tags": ["sustainability", "review", "gear"]
+    },
+    {
+        "type": "forum",
+        "title": "How to keep drinks cold at festivals?",
+        "source": "Reddit",
+        "username": "u/user6763",
+        "content": "Some useful community insights from experience.",
+        "tags": ["review", "urban", "travel"]
+    },
+    {
+        "type": "research",
+        "title": "Portable Solar Panel Efficiency",
+        "source": "Nature Journal",
+        "snippet": "A recent study showing interesting trends and findings.",
+        "tags": ["gear", "premium", "electric"]
+    }
+]

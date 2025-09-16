@@ -1,0 +1,82 @@
+[
+    {
+        "type": "product",
+        "title": "SolarPower Bank Pro",
+        "summary": "A top-rated item loved by users.",
+        "image": "https://via.placeholder.com/100",
+        "tags": ["budget", "electric", "mobility"]
+    },
+    {
+        "type": "forum",
+        "title": "Worth it to upgrade to S5?",
+        "source": "Reddit",
+        "username": "u/user1540",
+        "content": "Some useful community insights from experience.",
+        "tags": ["premium", "budget", "sustainability"]
+    },
+    {
+        "type": "research",
+        "title": "Plastic Reduction in UK Homes",
+        "source": "Nature Journal",
+        "snippet": "A recent study showing interesting trends and findings.",
+        "tags": ["sustainability", "eco", "review"]
+    },
+    {
+        "type": "research",
+        "title": "E-bike Usage in Urban Settings",
+        "source": "Nature Journal",
+        "snippet": "A recent study showing interesting trends and findings.",
+        "tags": ["premium", "mobility", "eco"]
+    },
+    {
+        "type": "research",
+        "title": "Backpack Travel in Gen Z",
+        "source": "Nature Journal",
+        "snippet": "A recent study showing interesting trends and findings.",
+        "tags": ["urban", "electric", "premium"]
+    },
+    {
+        "type": "forum",
+        "title": "How to keep drinks cold at festivals?",
+        "source": "Reddit",
+        "username": "u/user3472",
+        "content": "Some useful community insights from experience.",
+        "tags": ["travel", "urban", "sustainability"]
+    },
+    {
+        "type": "product",
+        "title": "VanMoof S5 Electric Bike",
+        "summary": "A top-rated item loved by users.",
+        "tags": ["mobility", "budget", "sustainability"]
+    },
+    {
+        "type": "product",
+        "title": "VanMoof S5 Electric Bike",
+        "summary": "A top-rated item loved by users.",
+        "image": "https://via.placeholder.com/100",
+        "tags": ["mobility", "electric", "sustainability"]
+    },
+    {
+        "type": "product",
+        "title": "Nomad Leather AirPods Case",
+        "image": "https://via.placeholder.com/100"
+    },
+    {
+        "type": "forum",
+        "title": "Minimalist packing advice",
+        "source": "Reddit",
+        "username": "u/user6190",
+        "content": "Some useful community insights from experience.",
+        "tags": [
+            "gear",
+            "budget",
+            "premium",
+            "gear",
+            "budget",
+            "premium",
+            "gear",
+            "budget",
+            "premium"
+        ]
+    }
+]
