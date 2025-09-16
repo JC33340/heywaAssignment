@@ -16,6 +16,7 @@ const Check = ({ options, handleChange, checked, label }: checkType) => {
                         checked={checked.includes(item)}
                         onChange={handleChange}
                         value={item}
+                        className="cursor-pointer"
                     ></input>
                     <label>
                         {item.charAt(0).toUpperCase() + item.slice(1)}

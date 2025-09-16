@@ -17,7 +17,7 @@ const Dropdown = ({
             <span> {placeholder}:</span>
             <select
                 value={value ?? undefined}
-                className="border-1 rounded-md p-1"
+                className="border-1 rounded-md p-1 cursor-pointer"
                 onChange={handleChange}
             >
                 <option value={''}>Any</option>
