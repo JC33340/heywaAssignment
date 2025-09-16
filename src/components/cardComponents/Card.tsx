@@ -25,7 +25,7 @@ const Card = ({ item }: CardComponentType) => {
                 <p className="text-sm opacity-50 capitalize">{item.type}</p>
                 {item.image && (
                     <img
-                        className="w-full"
+                        className="rounded-lg max-h-50 object-contain"
                         src={item.image}
                         alt="Placeholder image"
                         loading="eager"
