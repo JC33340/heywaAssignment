@@ -12,7 +12,22 @@ const CardDisplay = () => {
             <div className="flex gap-10 flex-wrap justify-center">
                 {context.displayList ? (
                     context.displayList.map((item, i) => (
-                        <Card item={item} key={i} />
+                        <Card
+                            title={item.title}
+                            textContent={
+                                item.type === 'forum'
+                                    ? item.content
+                                    : item.type === 'product'
+                                      ? item.summary
+                                      : item.snippet
+                            }
+                            username={item.username}
+                            source={item.source}
+                            tags={item.tags}
+                            key={i}
+                            type={item.type}
+                            image={item.image}
+                        />
                     ))
                 ) : (
                     <Heading text="Pick a card set" />

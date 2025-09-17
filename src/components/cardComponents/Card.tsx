@@ -1,56 +1,67 @@
-import type { fileItemType } from '../../types';
+import type { tagType, typeType } from '../../types';
 import Tag from './Tag';
 import TextHighlight from '../TextHighlight';
 import { useContext } from 'react';
 import { appContext } from '../../App';
 
 type CardComponentType = {
-    item: fileItemType;
+    title: string;
+    textContent?: string;
+    username?: string;
+    tags?: tagType[];
+    image?: string;
+    source?: string;
+    type?: typeType;
 };
 
-const Card = ({ item }: CardComponentType) => {
+const Card = ({
+    title,
+    textContent,
+    username,
+    tags,
+    image,
+    source,
+    type,
+}: CardComponentType) => {
     const { keywordHighlight } = useContext(appContext);
-
-    //dynamically rendering text depending on the type
-    let text =
-        item.type === 'forum'
-            ? item.content
-            : item.type === 'product'
-              ? item.summary
-              : item.snippet;
-
     return (
         <div className="bg-white text-black flex  gap-y-5 flex-col rounded-lg p-4 w-65 sm:w-80 lg:w-100 shadow-lg p-5 justify-between hover:scale-110 hover:shadow-2xl transition-all">
             <div className="flex flex-col gap-y-3">
-                <p className="text-sm opacity-50 capitalize">{item.type}</p>
-                {item.image && (
+                {type && (
+                    <p className="text-sm opacity-50 capitalize">{type}</p>
+                )}
+                {image && (
                     <img
                         className="rounded-lg max-h-50 object-contain"
-                        src={item.image}
+                        src={image}
                         alt="Placeholder image"
                         loading="eager"
                     />
                 )}
-                <TextHighlight
-                    className="font-semibold text-xl"
-                    text={item.title}
-                    highlight={keywordHighlight}
-                />
-                {item.type === 'forum' && (
+                {title && (
+                    <TextHighlight
+                        className="font-semibold text-xl"
+                        text={title}
+                        highlight={keywordHighlight}
+                    />
+                )}
+                {type === 'forum' && (
                     <p className="opacity-50">
-                        {item.source} - {item.username}
+                        {source} {username && `- ${username}`}
                     </p>
                 )}
-                <TextHighlight
-                    className="text-sm"
-                    text={text ?? ''}
-                    highlight={keywordHighlight}
-                />
+                {textContent && (
+                    <TextHighlight
+                        className="text-sm"
+                        text={textContent ?? ''}
+                        highlight={keywordHighlight}
+                    />
+                )}
             </div>
 
-            {item.tags && (
+            {tags && (
                 <div className="flex opacity-70 text-xs capitalize gap-3 flex-wrap">
-                    {item.tags
+                    {tags
                         .sort((a, b) => {
                             if (a > b) {
                                 return 1;
